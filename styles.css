@@ -1,0 +1,9 @@
+body {
+    background-image: url("https://media.istockphoto.com/photos/light-texture-background-of-spots-halftone-picture-id963927280?k=6&m=963927280&s=170667a&w=0&h=QacyHjiUjuYhN0Z35RxHdRv5tNAo73fMeGKVabmx3Vo=");
+  }
+.white-bg{
+    background-color: white;
+}
+.teal-bg{
+    background-color: rgb(46, 155, 122);
+}
