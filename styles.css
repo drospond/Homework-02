@@ -18,3 +18,15 @@ body {
 .padding-to-zero{
     padding: 0px;
 }
+
+a{
+    color: gray;
+}
+img{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: rgb(46, 155, 122);;
+}
