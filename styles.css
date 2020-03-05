@@ -31,6 +31,9 @@ h3{
     color: rgb(46, 155, 122);
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .btn {
@@ -63,4 +66,17 @@ h3{
 .btn-primary:hover {
     background-color: rgba(46, 155, 122, 0.63);
     border-color: rgba(46, 155, 122, 0.63);
+}
+
+.border-bottom {
+    border-bottom: 2px solid #dee2e6!important;
+}
+
+p{
+    color: gray;
+}
+
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
