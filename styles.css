@@ -2,23 +2,6 @@ body {
     background-image: url("https://media.istockphoto.com/photos/light-texture-background-of-spots-halftone-picture-id963927280?k=6&m=963927280&s=170667a&w=0&h=QacyHjiUjuYhN0Z35RxHdRv5tNAo73fMeGKVabmx3Vo=");
   }
 
-.white-bg{
-    background-color: white;
-}
-
-.teal-bg{
-    background-color: rgb(46, 155, 122);
-}
-
-#cat{
-    width: 300px;
-    height: 200px;
-}
-
-.padding-to-zero{
-    padding: 0px;
-}
-
 a{
     color: gray;
 }
@@ -36,24 +19,55 @@ h3{
     font-weight: bold;
 }
 
-.btn {
-    display: inline-block;
-    font-weight: 400;
-    color: #212529;
+p{
+    color: gray;
+}
+
+#cat{
+    width: 300px;
+    height: 200px;
+}
+
+.white-bg{
+    background-color: white;
+}
+
+.teal-bg{
+    background-color: rgb(46, 155, 122);
+}
+
+.padding-to-zero{
+    padding: 0px;
+}
+
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.nav{margin-top: 6px;}
+
+.portfolio-img{
+    width: 329px;
+    padding-right: 0px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
+    width: 329px;
+    background-color: rgb(46, 155, 122);
+    color: white;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .btn {
     border-radius: 0px;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .btn-primary {
@@ -71,18 +85,7 @@ h3{
 .border-bottom {
     border-bottom: 2px solid #dee2e6!important;
 }
-
-p{
-    color: gray;
-}
-
-.h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-.nav{margin-top: 6px;}
-
+  
 .footer {
     position: fixed;
     bottom: 0;
@@ -93,11 +96,6 @@ p{
     color: lightgray;
     font-size: 12px;
     border-top:  5px solid rgba(46, 155, 122, 0.63);
-}
-
-.portfolio-img{
-    width: inherit;
-    padding-right: 0px;
 }
 
 @media screen and (max-width: 767px) {
